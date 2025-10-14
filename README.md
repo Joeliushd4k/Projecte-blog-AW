@@ -1,2 +1,2 @@
 # Projecte-blog-AW
-Maracatones
+Projecte creat per, Joel Perez i Aleix Puiggari
