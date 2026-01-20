@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    
+    font-family: tahoma, verdana, sans-serif;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 header {
     background-color: rgb(116, 200, 56);
-    color: black;
+    color: white;
 }
 
 nav li a {
