@@ -1,2 +1,2 @@
-# Projecte-blog-AW
-Projecte creat per, Joel Perez i Aleix Puiggari
+### Projecte-blog-AW
+Projecte creat per, Joel Perez 
