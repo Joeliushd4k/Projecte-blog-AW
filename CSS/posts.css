@@ -1,11 +1,19 @@
-div {
-    padding: 1em;
-}
+
 
 .imgGame {
-    height: auto;
+    height: 30vh;
     width: 100%;
 }
 
+.juegos_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
+}
+
+*{
+    text-decoration: none;
+    color: black;
+}
 
