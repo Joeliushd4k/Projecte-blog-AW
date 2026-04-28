@@ -11,7 +11,7 @@
     height: 100vh;
         grid-template-columns: 1fr 10fr;
     grid-template-rows: 1fr 10fr 1fr;
-    grid-row-gap: 5px;
+    grid-row-gap: 3px;
 }
 
 .nav{
@@ -47,8 +47,8 @@ ul {
 
 }
 
-ul li a .active{
-    background-color: rgb(29, 88, 226);
+.active{
+    background-color: rgb(0, 76, 255);
     color: rgb(255, 255, 255);
 }
 
@@ -63,5 +63,6 @@ ul li a:hover:not(.active){
     color: white;
     text-align: center;
     background-color: black;
+    padding: 15px;
     
 }
