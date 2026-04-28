@@ -1,0 +1,71 @@
+body{
+    background-image: url(/img/persona_4_capturas/thumb-1920-889332.jpg);
+}
+
+.mainpost{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    grid-gap: 15px;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  grid-row:1;
+}
+
+div.gallery-item {
+  margin: 5px;
+  width: calc(25% - 20px);
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 768px) {
+  div.gallery-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.gallery-item {
+    width: calc(100% - 20px);
+  }
+}
+
+.steamlink{
+  margin: 3px;
+  color: black;
+  background-color: rgb(182, 182, 182);
+  border-radius: 5px;
+  height: 30px;
+  margin-left:5px ;
+  margin-right: 5px;
+}
+
+.steamlogo{
+  height: 20px;
+  margin: 2px;
+}
+
+.reseña{
+  grid-row: 2;
+  border-radius: 15px;
+  background-color: rgba(70, 68, 68, 0.89);
+  color:white
+
+}
+
+.textoreseña{
+  margin: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+}
+

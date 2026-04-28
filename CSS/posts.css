@@ -1,19 +1,33 @@
 
 
 .imgGame {
-    height: 30vh;
-    width: 100%;
+    height: 20vh;
+    width: auto;
 }
 
 .juegos_grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    column-gap: 1vh;
+    row-gap: 1vh;
 
 }
 
-*{
-    text-decoration: none;
-    color: black;
+.post_border{
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px;
+    padding-right: 10px;
 }
+
+div a p{
+    color:white;
+}
+
+div a h3{
+    color: white;
+}
+
+
 
