@@ -1,6 +1,67 @@
 
+@media screen and (min-width: 0px) {
+    .imgGame {
+    height: 20vh;
+    width: auto;
+}
 
-.imgGame {
+.juegos_grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 3px;
+
+}
+
+.post_border{
+    background-color: black;
+
+    padding: 15px;
+    padding-right: 10px;
+}
+
+div a p{
+    color:white;
+}
+
+div a h3{
+    color: white;
+}
+}
+@media screen and (min-width: 400) {
+       .imgGame {
+    height: 100vh;
+    width: auto;
+}
+
+.juegos_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 1vh;
+    row-gap: 1vh;
+
+}
+
+.post_border{
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px;
+    padding-right: 10px;
+}
+
+div a p{
+    color:white;
+}
+
+div a h3{
+    color: white;
+} 
+}
+
+@media screen and (min-width: 800px) {
+    .imgGame {
     height: 20vh;
     width: auto;
 }
@@ -28,6 +89,37 @@ div a p{
 div a h3{
     color: white;
 }
+}
 
+@media screen and (min-width: 1200px) {
+    .imgGame {
+    height: 20vh;
+    width: auto;
+}
+
+.juegos_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1vh;
+    row-gap: 1vh;
+
+}
+
+.post_border{
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px;
+    padding-right: 10px;
+}
+
+div a p{
+    color:white;
+}
+
+div a h3{
+    color: white;
+}
+}
 
 
